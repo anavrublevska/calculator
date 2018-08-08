@@ -16,3 +16,7 @@ document.querySelector('.calc .clean')
         display.value = ' ';        
   });
   
+document.querySelector('.calc .sqrt')
+    .addEventListener('click', function(){
+        display.value = Math.sqrt(display.value);        
+});
